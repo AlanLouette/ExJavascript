@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RPG Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- <div id="health"></div>
+    <div id="item"></div> -->
+  <!-- <div class="button">
+        <div id="buttonp1">
+            <button class="buttonp1-1" type="button">Hit</button>
+            <button class="buttonp1-2" type="button">Heal</button>
+            <button class="buttonp1-3" type="button">Yield</button>
+        </div>
+        <div id="buttonp2">
+            <button class="buttonp2-1" type="button">Hit</button>
+            <button class="buttonp2-2" type="button">Heal</button>
+            <button class="buttonp2-3" type="button">Yield</button>
+        </div>
+    </div> -->
+  <div class="panel-creation">
+    <div id="input-line1">
+      <div id="input1">
+        Votre nom:
+        <input type="text" name="hero-id" id="hero-id" />
+      </div>
+      <div id="vs">VS</div>
+      <div id="input2">
+        Adversaire:
+        <input type="text" name="ennemy-id" id="ennemy-id" />
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="race">
+    <div id="div-line1">
+      <div id="div-race">
+        <label for="create">Choose a race: </label>
+        <select id="raceV1">
+          <option value="Humans">Humans</option>
+          <option value="Orcs">Orcs</option>
+          <option value="Elves">Elves</option>
+          <option value="Vampires">Vampires</option>
+        </select>
+      </div>
+      <div id="div-race2">
+        <label for="create2">Choose a race: </label>
+        <select id="raceV2">
+          <option value="Humans">Humans</option>
+          <option value="Orcs">Orcs</option>
+          <option value="Elves">Elves</option>
+          <option value="Vampires">Vampires</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div id="item">
+    <div id="div-line2">
+      <div id="div-item1">
+        <label for="create">Choose an item:</label>
+        <select id="itemV1">
+          <option value="Boots">Boots</option>
+          <option value="Staff">Staff</option>
+          <option value="Sword">Sword</option>
+          <option value="Bow">Bow</option>
+        </select>
+      </div>
+      <div id="div-item2">
+        <label for="create">Choose an item:</label>
+        <select id="itemV2">
+          <option value="Boots">Boots</option>
+          <option value="Staff">Staff</option>
+          <option value="Sword">Sword</option>
+          <option value="Bow">Bow</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="choice-p1">
+    <div class="choice-linep1">
+      <img class="p1_race" src="image/human_fighter.png" alt=" " />
+      <img class="p1_item" src="image/boot_item.png" alt=" " />
+    </div>
+    <div class="choice-linep2">
+      <img class="p2_race" src="image/human_fighter.png" alt=" " />
+      <img class="p2_item" src="image/boot_item.png" alt=" " />
+    </div>
+  </div>
+  <div id="input-line2">
+    <div id="valide">
+      <button class="validName" id="validName2" type="button">
+        Valider
+      </button>
+    </div>
+  </div>
+  <div id="ennemyMove"></div>
+  <script src="./main.js"></script>
+</body>
+
+</html>

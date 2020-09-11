@@ -1,0 +1,84 @@
+body {
+  background-image: url("image/background.png");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+}
+
+.panel-creation {
+  width: 100%;
+  height: 10em;
+}
+
+#input-line1 {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 150%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#input-line2 {
+  display: flex;
+  justify-content: center;
+}
+
+.validName {
+  width: 130px;
+  height: 50px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+#div-line1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+  padding-left: 8%;
+}
+
+#div-line2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2.5%;
+  padding-left: 8%;
+  padding-bottom: 2.5%;
+}
+
+#div-race,
+#div-race2,
+#div-item1,
+#div-item2 {
+  width: 50%;
+}
+
+#item img {
+  height: 200px;
+}
+
+.choice-p1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.choice_linep1 {
+  height: 50px;
+  width: 50%;
+}
+
+.choice_linep2 {
+  width: 50%;
+}
+
+.p1_race,
+.p2_race {
+  height: 300px;
+}
+
+.p1_item,
+.p2_item {
+  height: 100px;
+}
